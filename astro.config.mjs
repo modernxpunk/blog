@@ -6,5 +6,4 @@ import sitemap from "@astrojs/sitemap";
 
 export default defineConfig({
 	integrations: [tailwind(), mdx(), compress(), sitemap()],
-	site: "https://stargazers.club",
 });
